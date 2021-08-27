@@ -3,7 +3,7 @@ let header = document.getElementById("header")
 let nav = document.getElementById("nav")
 menu.addEventListener("click", function(){
     if(header.style.height == "50px" || header.offsetHeight == 50) {
-        header.style.height = 50 + nav.offsetHeight + "px";
+        header.style.height = "100%";
     } else {
         header.style.height = "50px"
     }

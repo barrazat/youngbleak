@@ -199,6 +199,68 @@ video{
     padding-bottom: 50px;
 }
 
+.contenedor-precios {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.contenedor-precios .titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.titulo h3{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenedor-cartas{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.carta{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 450px;
+    width: 25%;
+    color: black;
+}
+
+.carta p {
+    width: 85%;
+    text-align: justify;
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+.carta h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.carta img{
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 footer{
     background-color: #180F1C;
     height: 30vh;
@@ -304,7 +366,7 @@ footer > div > ul > li > a {
         flex-direction: column;
         overflow: hidden;
         height: 50px;
-        transition: all 0.5s;
+        transition: all 0.84s;
     }
 
     header > div {
@@ -335,7 +397,7 @@ footer > div > ul > li > a {
     nav > ul {
         margin: auto;
         padding: 0;
-        width: 200px;
+        width: 250px;
         list-style-type: none;
         display: block;
     }
@@ -346,7 +408,12 @@ footer > div > ul > li > a {
         margin: auto;
         height: 50px;
         text-align: center;
-        justify-content: center;
+        justify-content: flex-start;
+        border-bottom:2px solid rgba(255,255,255,.1);
+    }
+
+    nav > ul > li:nth-child(4){
+        border-bottom: none;
     }
     
     nav > ul > li > a {
@@ -355,5 +422,39 @@ footer > div > ul > li > a {
         width: 100%;
         margin: auto;
     }
+
+    .contenedor-precios {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    
+    .contenedor-precios .titulo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .titulo h3{
+        padding-top: 80px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .contenedor-cartas{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    
+    .carta{
+        height: auto;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    
 
 }
