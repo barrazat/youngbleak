@@ -184,7 +184,8 @@
 
 
     .contenedor-titulo h2 {
-        font-size: 52px;
+        font-size: 72px;
+        padding-bottom: 20px;
     }
     
     .contenedor-titulo p {
@@ -277,10 +278,6 @@
         border-bottom:2px solid rgba(255,255,255,.1);
     }
 
-    nav > ul > li:nth-child(4) {
-        border-bottom: none;
-    }
-    
     nav > ul > li > a {
         color: white;
         text-decoration: none;
