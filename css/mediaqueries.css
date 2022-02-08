@@ -128,9 +128,18 @@
     /*samples*/
     
     .muestra {
-        width: 80%;
+        width: 100%;
     }
 
+    .contenedor-ifr{
+        width: 100%;
+    }
+    
+    .muestra .contenedor-ifr:last-child {
+        padding-bottom: 0px;
+    }
+    
+    
     .contenedor-precios {
         width: 100%;
         height: auto;
